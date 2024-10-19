@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tu Nombre"
+        android:textSize="30sp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+        android:textColor="#FFFFFF"/>
+
+    <ImageView
+        android:id="@+id/backgroundImage"
+
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/ohyeah"
+        android:scaleType="centerCrop"/>
+    <ImageView
+        android:id="@+id/foregroundImage"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/nycfromabove"
+        android:layout_centerInParent="true"
+        android:layout_margin="20dp"/>
+</LinearLayout>
